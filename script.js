@@ -84,7 +84,7 @@ async function getData() {
         if(i<3){
             let btn1 = document.createElement('button');
             btn1.innerText = `${stack}`;
-            btn1.classList.add('px-4','py-[0.4em]','border-2' ,'border-black/40','rounded-[2em]' ,'font-medium', 'my-2','mr-2')
+            btn1.classList.add('px-2','py-[0.3em]','border-2' ,'border-black/40','rounded-[2em]' ,'font-medium', 'my-2','mr-1')
             buttons.appendChild(btn1);
             i++;
         }
@@ -93,7 +93,7 @@ async function getData() {
        let btn1 = document.createElement('button');
 
        btn1.innerText = `+2`;
-       btn1.classList.add('px-4','py-[0.4em]','bg-blue-400','rounded-[2em]' ,'font-medium')
+       btn1.classList.add('px-2','py-[0.3em]','bg-blue-400','rounded-[2em]' ,'font-medium')
        buttons.appendChild(btn1);
 
         box2.appendChild(buttons);
@@ -128,7 +128,7 @@ async function getData() {
            
                     let btn1 = document.createElement('button');
                     btn1.innerText = `${stack}`;
-                    btn1.classList.add('px-4','py-[0.4em]','border-2' ,'border-black/40','rounded-[2em]' ,'font-medium', 'my-2','mr-2')
+                    btn1.classList.add('px-2','py-[0.3em]','border-2' ,'border-black/40','rounded-[2em]' ,'font-medium', 'my-2','mr-2')
                     buttons.appendChild(btn1);
                     i++;
                 })
